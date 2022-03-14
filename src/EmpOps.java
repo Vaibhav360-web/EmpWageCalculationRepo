@@ -15,6 +15,7 @@ public class EmpOps {
         System.out.println("Enter the  Days Emp Was Present=");
         empDays.setEmpPresentDays(sc.nextInt());
         empData.setSalary(empDays.getEmpSalary()*empDays.getEmpPresentDays());
+        System.out.println("hi");
     }
 
     public void showEmployee(){
